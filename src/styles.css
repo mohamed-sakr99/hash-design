@@ -1,0 +1,12 @@
+html,body {
+  font-family: 'Almarai', sans-serif;}
+@media (max-width: 768px) {
+  body {
+    font-size: 11px !important;
+  }
+}
+
+input::placeholder {
+  font-size: 13px !important;
+  font-style: italic;
+}

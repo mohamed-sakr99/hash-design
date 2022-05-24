@@ -1,0 +1,40 @@
+.header {
+  color: #fff;
+  background-color: #2359c2;
+  box-shadow: 18px 19px 12px #eee;
+}
+.image {
+  position: relative;
+  top: 4px;
+}
+.img-fluid {
+    max-width: 62% !important;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: auto;
+}
+.text p {
+  border: .5px solid #fff;
+  border-radius: 5px;
+  padding: 3px;
+}
+.navbar {
+  color: rgb(226, 210, 210);
+}
+.navbar ul li a{
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+}
+.navbar ul li a.active {
+  color: #2359c2;
+}
+@media (max-width: 768px) {
+  .header ,.navbar{
+    font-size: 13px;
+  }
+}
